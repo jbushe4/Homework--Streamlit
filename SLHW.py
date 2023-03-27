@@ -6,7 +6,7 @@ import pandas as pd
 
 st.header('Midterm Data')
 
-space_visits =pd.read_csv("Tableau Midterm Folders/near-earth-asteroids-discovered-over-time.csv")
+space_visits =pd.read_csv("near-earth-asteroids-discovered-over-time.csv")
 
 st.write(space_visits)
 
